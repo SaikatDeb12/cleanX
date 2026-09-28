@@ -1,0 +1,27 @@
+{
+    "name": "cleanx",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "clr": "./dist/cli.js"
+    },
+    "scripts": {
+        "build": "npx tsc",
+        "dev": "node ./dist/cli.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "type": "module",
+    "dependencies": {
+        "@inkjs/ui": "^2.0.0",
+        "commander": "^15.0.0",
+        "react": "^19.3.0"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.3",
+        "@types/react": "^19.3.0",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2"
+    }
+}
